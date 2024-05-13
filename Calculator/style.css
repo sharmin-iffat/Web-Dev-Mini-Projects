@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: rgb(140, 216, 164);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Container {
+    height: 90vh;
+    width: 70vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    border-radius: 1.2rem;
+    padding: 2rem;
+    background-color:whitesmoke;
+    box-shadow: 0px 3px 15px rgba(113, 115,119,0.5);
+   
+}
+.row {
+  width: 70vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  height: 4rem;
+  width: 4rem;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 0.2rem 0.2rem;
+  cursor: pointer;
+  background-color:transparent;
+  box-shadow: 0px 3px 15px  rgb(189, 181, 181); 
+}
+
+.arth {
+  height: 4rem;
+  width: 4rem;
+  font-size: 1.4rem;
+  color: rgba(118, 192, 14, 0.973);
+  background-color:transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 0.2rem 0.2rem;
+  box-shadow: 0px 3px 15px rgb(189, 181, 181);
+}
+#equ {
+  height: 4rem;
+  width: 4rem;
+  font-size: 1.8rem;
+  background-color: orangered;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 0.2rem 0.2rem;
+  box-shadow: 0px 3px 15px  rgb(189, 181, 181);
+  cursor: pointer;
+}
+
+input {
+  height: 5rem;
+  width: 17rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 2.2rem;
+  color: black;
+  text-align: right;
+  cursor: pointer;
+  background-color:rgba(133, 138, 154, 0.416);
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0px 3px 15px rgba(113, 115,119,0.5);
+
+}
+
+input::placeholder {
+  color: black;
+}
