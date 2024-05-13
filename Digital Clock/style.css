@@ -1,0 +1,39 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aquamarine;
+    background: url("nature.jpg") no-repeat;
+    background-size: cover;
+}
+.clock {
+    width: 100%;
+    max-width: 380px;
+    height: 24vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px  rgba(0,0,0,0.6);
+    border-radius: 12px;
+    
+}
+.clock h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.clock span{
+    position: relative;
+    top:-13%;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
