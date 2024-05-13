@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(130, 121, 121);
+}
+#nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#sign p{
+    color: rgb(253, 22, 134);
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#sign {
+    display: flex;
+    margin-left: 40px;
+    color: black;
+}
+#menu {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+#menu a{
+    text-decoration: none;
+}
+#menu :hover{
+    color: blue;
+}
+#container1 {
+    height: 90vh;
+   /* background-color: papayawhip; */
+    display: flex;
+    justify-content: space-evenly;
+}
+#profile {
+    width: 45%;
+    height: 80vmin;
+    padding: 80px 0px 0px 60px;
+  /*  background-color: aqua; */
+}
+
+#profile p{
+    line-height: 2;
+}
+#profile i{
+    margin-right: 20px;
+    color: black;
+    font-size: 30px;
+}
+#profile h1{
+    color: black;
+}
+.btn {
+    color: white;
+    background-color: rgb(114, 9, 114);
+    margin-right: 20px;
+    height: 30px;
+}
+
+#proimg {
+    width:40% ;
+    height: 80vmin;
+   /* background-color: aquamarine; */
+    background-image: url(profile.jpg);
+    background-size: cover;
+
+}
+#container2 {
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+  /*  background-color: pink; */
+}
+#skimg {
+    height: 80vmin;
+    width: 45%;
+    background-image: url(skimg.jpg);
+    background-size: cover;
+  /*  background-color: blue; */
+}
+#skill {
+    height:80vmin;
+    width: 50%;
+   /* background-color: blanchedalmond; */
+    padding: 40px 0px 0px 40px; 
+}
+#skill i{
+    margin-right: 35px;
+    font-size: 40px;
+    color: black;
+}
+#skill h1{
+    color: black;
+}
+#container3 {
+    height: 90vh;
+ /*    background-color: papayawhip; */
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.prof {
+    height: 70vmin;
+    width: 40%;
+   /* background-color: aqua; */
+     display: flex;
+     flex-direction: column;
+     justify-content:space-evenly ;
+     padding-left: 3rem;
+}
+.prof h2{
+    color: black;
+    margin-top: 4rem;
+}
+.prof p{
+    color: rgb(25, 22, 22);
+    margin-bottom: 0.5rem;
+}
+.progress1 {
+    height: 40vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+   /* background-color: aqua; */
+}
+progress {
+    width: 25rem;
+    height: 1.6rem;
+}
+#profimg{
+    height: 75vmin;
+    width: 52%; 
+   background-image:url(img.jpg) ;
+   background-size:cover;
+  
+}
+#container4{
+    height: 90vh;
+    width: 30rem;
+    background-color: hotpink; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
